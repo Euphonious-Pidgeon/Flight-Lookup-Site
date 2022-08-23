@@ -1,0 +1,63 @@
+ .Navbar 
+{
+    text-align: center;
+    margin-top: 0px;
+}
+
+.flight-nav-logo {
+  float: left;
+  margin-top: 22px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 0;
+}
+ul {
+    list-style-type: none;
+    outline: none !important;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: transparent;
+    letter-spacing: 2px;
+  }
+  
+  li {
+    float: left;
+    margin-top: 10px;
+    margin-left: 16px;
+  }
+  li a {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    display: block;
+    padding: 16px;
+    background-color: #000;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 10px;
+    border-style: outset;
+    font-weight: 1000;
+    text-transform: uppercase;
+    color: whitesmoke;
+  } 
+  
+  li a:hover {
+    background-color: rgb(16, 16, 16); 
+    color: rgb(228, 228, 228);
+  }
+
+  
+  /* highlights whichever option the user selects, color is the text, the other is the background */
+   li a:focus{
+    outline: none !important;
+    color:rgba(148,187,233,1);
+    border: 1px solid rgba(112,111,211,1);
+    background-color:  rgb(18, 18, 45);
+    box-shadow: 8px, 0px, 1px rgba(112,111,211,1);
+  }
+
+  li a:active{
+    color: rgba(238,174,202,1);
+    
+  }
